@@ -70,7 +70,7 @@ __version__ = Path("moviepy/version.py").read_text().strip().split('"')[1][:-1]
 
 # Define the requirements for specific execution needs.
 requires = [
-    "decorator>=4.0.2,<6.0",
+    "decorator>=4.0.2,<7.0",
     "imageio>=2.5,<3.0",
     "imageio_ffmpeg>=0.2.0",
     "numpy>=1.17.3",
